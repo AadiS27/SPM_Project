@@ -1,0 +1,74 @@
+// Binary Search Implementation using AOI arrays
+// Demonstrating mutable arrays
+
+// Create a sorted array for binary search
+var sortedArray = [2, 5, 8, 12, 16, 23, 38, 45, 56, 67, 78];
+write("Sorted Array:");
+write(sortedArray);
+
+// Manual binary search implementation
+write("Searching for 23:");
+var left = 0;
+var right = 10;
+var found = -1;
+
+while (left <= right) {
+    var mid = (left + right) / 2;
+    var midValue = sortedArray[mid];
+    
+    if (midValue == 23) {
+        found = mid;
+        left = right + 1;
+    }
+    if (midValue > 23) {
+        right = mid - 1;
+    }
+    if (midValue < 23) {
+        left = mid + 1;
+    }
+}
+write(found);
+
+// Demonstrate array mutability
+write("Mutable Array Demo:");
+var nums = [10, 20, 30, 40, 50];
+write("Original array:");
+write(nums);
+
+nums[0] = 99;
+nums[4] = 88;
+
+write("After mutation:");
+write(nums);
+write("nums[0] is now:");
+write(nums[0]);
+write("nums[4] is now:");
+write(nums[4]);
+
+// Bubble Sort Implementation
+write("Bubble Sort Demo:");
+var unsorted = [64, 34, 25, 12, 22, 11, 90];
+write("Unsorted array:");
+write(unsorted);
+
+var n = 7;
+var i = 0;
+
+while (i < n) {
+    var j = 0;
+    while (j < n - i - 1) {
+        var current = unsorted[j];
+        var next = unsorted[j + 1];
+        
+        if (current > next) {
+            unsorted[j] = next;
+            unsorted[j + 1] = current;
+        }
+        
+        j = j + 1;
+    }
+    i = i + 1;
+}
+
+write("Sorted array:");
+write(unsorted);
