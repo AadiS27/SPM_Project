@@ -328,40 +328,6 @@ AOI/
 
 ---
 
-## 🗺️ Roadmap
-
-### Phase 1: Core Features ✅
-- [x] Basic interpreter (variables, functions, control flow)
-- [x] Array support with mutability
-- [x] Web-based IDE with syntax highlighting
-- [x] AI-powered chatbot assistance
-
-### Phase 2: Enhanced Features 🚧
-- [ ] String methods (length, substring, split)
-- [ ] Array methods (push, pop, length, indexOf)
-- [ ] Break/Continue statements
-- [ ] Switch/Case statements
-- [ ] Error handling (try/catch)
-
-### Phase 3: Advanced Features 📋
-- [ ] Objects/Dictionaries
-- [ ] Module system (import/export)
-- [ ] File I/O operations
-- [ ] Debugger with breakpoints
-- [ ] Performance profiler
-- [ ] Code formatter
-
-### Phase 4: Project Management Integration 🎯
-- [ ] Built-in testing framework
-- [ ] Code metrics dashboard
-- [ ] CI/CD pipeline integration
-- [ ] Documentation generator
-- [ ] Sprint/Task tracking
-
-**See the [open issues](https://github.com/AadiS27/SPM_Project/issues) for a full list of proposed features.**
-
----
-
 ## 🤝 Contributing
 
 Contributions are what make the open source community amazing! Any contributions you make are **greatly appreciated**.
