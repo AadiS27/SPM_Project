@@ -26,6 +26,10 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Ignore Python lib/ but not frontend/src/lib/
+lib/
+!frontend/src/lib/
+
 # PyInstaller
 *.manifest
 *.spec
